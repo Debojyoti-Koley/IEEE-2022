@@ -1,0 +1,43 @@
+front page
+      animation
+	1st comp
+		Font change 
+            Clickable cursor
+            Background
+            onclick scroll
+     whole background
+     main events 
+           redisgn
+     ALL major headings one font with one size
+     carasoul text
+     blue theme-277BC0	
+     milestone event-card to be big
+                     popup and whole text
+                     font 
+     achivement-
+               redesign
+     what we stand for
+               redesign
+     bangalore section
+               color and font
+     flagship
+              font and color of text
+     prayas-
+              same as mine
+     mentor
+              card formatiomn 3-2
+              color of outer card
+              font
+              size to be large
+              no animations
+     footer 
+		redesign
+  Rest page
+         do a dummy and try it best
+  Loader
+  Favicon
+  Boards and Society boilerplate
+  Team -codepen
+  Galery and contact boilerplate
+  Fest- same as before https redirect
+  
