@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact_us.css">
-    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <title>IEEE-SJCE</title>
 </head>
 <body>
     <div class="navbar">
-        <a href="#" class="logo"><img src="logo.png" alt="logo" id="logo_img"></a>
+        <a href="index.html" class="logo"><img src="logo.png" alt="logo" id="logo_img"></a>
 
         <a class="toggle-button">
             <span class="bar"></span>
@@ -19,42 +20,42 @@
 
         <ul class="navbar-dropdown">
             <li>
-                <a class="navbar-links">BOARDS</a>
+                <a href="./boards.html" class="navbar-links">BOARDS</a>
                 <div class="dropdown">
-                    <a href="#"><img src="web-dev.png" alt=""><span>WEB-DEVELOPMENT BOARD</span> </a>
-                    <a href="#"><img src="pen.png" alt=""> EDITORIAL BOARD</a>
+                    <a href="./boards.html#web_id"><img src="web-dev.png" alt=""><span>WEB-DEVELOPMENT BOARD</span> </a>
+                    <a href="./boards.html#ed_id"><img src="pen.png" alt=""> EDITORIAL BOARD</a>
                 </div>
             </li>
             <li>
-                <a class="navbar-links">SOCIETIES</a>
+                <a href="./societies.html" class="">SOCIETIES</a>
                 <div class="dropdown">
-                    <a href="#"><img src="student1.png" alt=""> STUDENT BRANCH</a>
-                    <a href="#"><img src="electronic.png" alt=""> ELECTRON DEVICES SOCIETY</a>
-                    <a href="#"><img src="woman.png" alt=""> WOMEN IN ENGINEERING</a>
-                    <a href="#"><img src="robotics.png" alt=""> ROBOTICS AND AUTOMATION SOCIETY</a>
+                    <a href="./societies.html#std_id"><img src="student1.png" alt=""> STUDENT BRANCH</a>
+                    <a href="./societies.html#eds_id"><img src="electronic.png" alt=""> ELECTRON DEVICES SOCIETY</a>
+                    <a href="./societies.html#wie_id"><img src="woman.png" alt=""> WOMEN IN ENGINEERING</a>
+                    <a href="./societies.html#rds_id"><img src="robotics.png" alt=""> ROBOTICS AND AUTOMATION SOCIETY</a>
                 </div>
             </li>
             <li>
-                <a class="navbar-links">TEAM</a>
+                <a href="./team.html" class="navbar-links">TEAM</a>
                 <div class="dropdown">
-                    <a href="#"><img src="executive committee.png" alt=""> EXECUTIVE COMMITTEE</a>
-                    <a href="#"><img src="membership.png" alt=""> MEMBERSHIP COMMITTEE</a>
-                    <a href="#"><img src="society.png" alt=""> SOCIETY</a>
-                    <a href="#"><img src="board.png" alt=""> BOARDS</a>
+                    <a href="./team.html#execom"><img src="executive committee.png" alt=""> EXECUTIVE COMMITTEE</a>
+                    <a href="./team.html#mem_id"><img src="membership.png" alt=""> MEMBERSHIP COMMITTEE</a>
+                    <a href="./team.html#socities_id"><img src="society.png" alt=""> SOCIETY</a>
+                    <a href="./team.html#boards_id"><img src="board.png" alt=""> BOARDS</a>
                 </div>
             </li>
-            <li>
+            <!-- <li>
                 <a class="navbar-links">FESTS</a>
                 <div class="dropdown">
-                    <a href="#"><img src="cyberia.png" alt=""> CYBERIA</a>
-                    <a href="#"><img src="toxido.png" alt=""> TUXEDO</a>
+                    <a href="http://www.ieeesjce.com/cyberia/home.php"><img src="cyberia.png" alt=""> CYBERIA</a>
+                  <a href="http://ieeesjce.com/tuxedo/"><img src="toxido.png" alt=""> TUXEDO</a>
                 </div>
+            </li> -->
+            <li>
+                <a href="./gallery.html" class="navbar-links">GALLERY</a>
             </li>
             <li>
-                <a class="navbar-links">GALLERY</a>
-            </li>
-            <li>
-                <a class="navbar-links">CONTACT</a>
+                <a href="./contact_us.html" class="navbar-links">CONTACT</a>
             </li>
         </ul>
     </div>
@@ -65,23 +66,20 @@
     <div class="container">
         <div style="text-align:center">
           <h2 class="heading">Contact Us</h2>
-          <p>Swing by for a cup of coffee, or leave us a message:</p>
+          <!-- <p>Swing by for a cup of coffee, or leave us a message:</p> -->
         </div>
         <div class="row">
           
           <div class="column" id="form">
-            <form action="/action_page.php">
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="india">India</option>
-                <option value="other">Other Country</option>
-              </select>
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <form action="mail.php" method="post">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="name" placeholder="Your name">
+              <label for="lname">Email</label>
+              <input type="text" id="lname" name="email" placeholder="Email address">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="lname" name="phone" placeholder="Enter phone number">
+              <label for="subject">Message</label>
+              <textarea id="subject" name="message" placeholder="Write something.." style="height:170px"></textarea>
               <input type="submit" value="Submit">
             </form>
           </div>
@@ -90,7 +88,7 @@
             <!-- <img src="/w3images/map.jpg" style="width:100%"> -->
 
             
-                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319" width="100%" height="350" frameborder="0" style="border:0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15592.149409781525!2d76.6134265!3d12.3132715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1ad797cbfc78d07a!2sJSS%20Science%20and%20Technology%20University%2C%20Mysuru.!5e0!3m2!1sen!2sin!4v1567658298958!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0"></iframe>
              
           </div>
           
@@ -99,43 +97,51 @@
 
 
       <div id="service">
+        <a href="mailto:ieeesjce2019@gmail.com">
         <div class="box">
             <!-- Form -->
-            <img src="gmail.png"
+            <img src="./contact us/gmail.gif"
                  alt= "color_image">
             <br>
              
             <!-- Displaying text at
                 the center of the box-->
             <p class="center">
-                Write us on <a href="">dummymail@ieee.com</a>
+                Write us on ieeesjce2019@gmail.com<a href=""></a>
             </p>
 
         </div>
+    </a>
+
+        <a href="tel:+918762361434">
         <div class="box">
-             
-                <img src="call.png">
+        
+            <img src="./contact us/phone.gif">
             <!-- Email -->
-            
+        
             <br>
-             
-                <!-- Displaying text at
-                the center of the box-->
+        
+            <!-- Displaying text at
+                        the center of the box-->
             <p class="center">
-                Reach us on +6345820526
+                Reach us on (+91)8762361434
             </p>
-
+        
         </div>
+        </a>
+
+        <a href="www.instagram.com/ieee_sjce/">
         <div class="box">
-            <img src="insta.png" alt= "color_image">
+            <img src="./contact us/instagram_lotty.gif" alt= "color_image">
             <br>
              
             <!-- Displaying text at
                 the center of the box-->
             <p class="center">
-                Don't forget to follow us on insta <a href="ieeesjce">@ieeesjce</a>
+                Don't forget to follow us on insta <a href="ieeesjce">@ieee_sjce</a>
             </p>
         </div>
+    </a>
     </div>
 </section>
 
@@ -152,29 +158,29 @@
             <br>
             Mysuru, 570006
             <br>
-            Phone: +(91) 6205701439
+            Phone: +(91) 8762361434
             <br>
             Email: ieeesjce2019@gmail.com
         </p>
     </div>
     <div class="importent_links">
-        <h1>IMPORTENT LINKS</h1>
-        <a href="#">JSS STU</a>
-        <a href="#">IEEE.org</a>
-        <a href="#">IEEE WIE</a>
-        <a href="#">IEEE Standrads</a>
-        <a href="#">IEEE XploreDigital Library</a>
-        <a href="#">IEEE EDS</a>
-        <a href="#">IEEE-Bangalurue section</a>
-        <a href="#">IEEE RAS</a>
+        <h1>IMPORTANT LINKS</h1>
+        <a href="https://jssstuniv.in/">JSS STU</a>
+        <a href="https://www.ieee.org/">IEEE.org</a>
+        <a href="https://wie.ieee.org/">IEEE WIE</a>
+        <a href="https://standards.ieee.org/">IEEE Standrads</a>
+        <a href="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE XploreDigital Library</a>
+        <a href="https://eds.ieee.org/">IEEE EDS</a>
+        <a href="https://ieeebangalore.org/">IEEE-Bangalore section</a>
+        <a href="http://www.ieee-ras.org/">IEEE RAS</a>
     </div>
     <div class="follow_us">
         <h1>FOLLOW US</h1>
         <div class="follow_icon">
-            <a href=""><img src="ig.png" alt=""></a>
-            <a href=""><img src="fb.png" alt=""></a>
-            <a href=""><img src="ln.png" alt=""></a>
-            <a href=""><img src="yt.png" alt=""></a>
+            <a href="https://www.instagram.com/ieee_sjce/"><img src="ig.png" alt=""></a>
+            <a href="https://www.facebook.com/ieeesjce/"><img src="fb.png" alt=""></a>
+            <a href="https://www.linkedin.com/company/ieee-sjce/"><img src="ln.png" alt=""></a>
+            <a href="https://www.youtube.com/user/IEEESJCE"><img src="yt.png" alt=""></a>
         </div>
     </div>
 </div>

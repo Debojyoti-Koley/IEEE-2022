@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="team.css">
     
-    <title>Team Page</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <title>IEEE-SJCE</title>
 </head>
 <body>
     <div class="navbar">
-        <a href="#" class="logo"><img src="logo.png" alt="logo" id="logo_img"></a>
+        <a href="./index.html" class="logo"><img src="logo.png" alt="logo" id="logo_img"></a>
 
         <a class="toggle-button">
             <span class="bar"></span>
@@ -21,42 +22,42 @@
         
         <ul class="navbar-dropdown">
             <li>
-                <a class="navbar-links">BOARDS</a>
+                <a href="./boards.html" class="navbar-links">BOARDS</a>
                 <div class="dropdown">
-                    <a href="#"><img src="web-dev.png" alt=""><span>WEB-DEVELOPMENT BOARD</span> </a>
-                    <a href="#"><img src="pen.png" alt=""> EDITORIAL BOARD</a>
+                    <a href="./boards.html#web_id"><img src="web-dev.png" alt=""><span>WEB-DEVELOPMENT BOARD</span> </a>
+                    <a href="./boards.html#ed_id"><img src="pen.png" alt=""> EDITORIAL BOARD</a>
                 </div>
             </li>
             <li>
-                <a class="navbar-links">SOCIETIES</a>
+                <a href="./societies.html" class="">SOCIETIES</a>
                 <div class="dropdown">
-                    <a href="#"><img src="student1.png" alt=""> STUDENT BRANCH</a>
-                    <a href="#"><img src="electronic.png" alt=""> ELECTRON DEVICES SOCIETY</a>
-                    <a href="#"><img src="woman.png" alt=""> WOMEN IN ENGINEERING</a>
-                    <a href="#"><img src="robotics.png" alt=""> ROBOTICS AND AUTOMATION SOCIETY</a>
+                    <a href="./societies.html#std_id"><img src="student1.png" alt=""> STUDENT BRANCH</a>
+                    <a href="./societies.html#eds_id"><img src="electronic.png" alt=""> ELECTRON DEVICES SOCIETY</a>
+                    <a href="./societies.html#wie_id"><img src="woman.png" alt=""> WOMEN IN ENGINEERING</a>
+                    <a href="./societies.html#rds_id"><img src="robotics.png" alt=""> ROBOTICS AND AUTOMATION SOCIETY</a>
                 </div>
             </li>
             <li>
-                <a class="navbar-links">TEAM</a>
+                <a href="./team.html" class="navbar-links">TEAM</a>
                 <div class="dropdown">
-                    <a href="#"><img src="executive committee.png" alt=""> EXECUTIVE COMMITTEE</a>
-                    <a href="#"><img src="membership.png" alt=""> MEMBERSHIP COMMITTEE</a>
-                    <a href="#"><img src="society.png" alt=""> SOCIETY</a>
-                    <a href="#"><img src="board.png" alt=""> BOARDS</a>
+                    <a href="./team.html#execom"><img src="executive committee.png" alt=""> EXECUTIVE COMMITTEE</a>
+                    <a href="./team.html#mem_id"><img src="membership.png" alt=""> MEMBERSHIP COMMITTEE</a>
+                    <a href="./team.html#socities_id"><img src="society.png" alt=""> SOCIETY</a>
+                    <a href="./team.html#boards_id"><img src="board.png" alt=""> BOARDS</a>
                 </div>
             </li>
-            <li>
+            <!-- <li>
                 <a class="navbar-links">FESTS</a>
                 <div class="dropdown">
-                    <a href="#"><img src="cyberia.png" alt=""> CYBERIA</a>
-                    <a href="#"><img src="toxido.png" alt=""> TUXEDO</a>
+                    <a href="http://www.ieeesjce.com/cyberia/home.php"><img src="cyberia.png" alt=""> CYBERIA</a>
+                  <a href="http://ieeesjce.com/tuxedo/"><img src="toxido.png" alt=""> TUXEDO</a>
                 </div>
+            </li> -->
+            <li>
+                <a href="./gallery.html" class="navbar-links">GALLERY</a>
             </li>
             <li>
-                <a class="navbar-links">GALLERY</a>
-            </li>
-            <li>
-                <a class="navbar-links">CONTACT</a>    
+                <a href="./contact_us.html" class="navbar-links">CONTACT</a>
             </li>
         </ul>
     </div>
@@ -76,32 +77,31 @@
             <img alt="left-arrow" src="left.png">
             <img alt="right-arrow" src="right.png">
         </div>
-        <!-- this subho-slider-img is used in subho.js
-        so, if you want to change the class name then
-        also change the class name in subho.js -->
+       
         <div class="subho-slider-wrapper" id="subho-slider-wrapper">
             <img class="subho-slider-img" src="sl1.jfif">
-            <img class="subho-slider-img" src="sl2.png">
-            <img class="subho-slider-img" src="sl3.jpg">
-            <img class="subho-slider-img" src="sl4.jpg">
+            <img class="subho-slider-img" src="sl2.jpeg">
+            <!-- <img class="subho-slider-img" src="sl3.jpg"> -->
+            <img class="subho-slider-img" src="sl4.jpeg">
+            <img class="subho-slider-img" src="sl5.jpeg">
         </div>
     </div>
     <script src="subho.js"></script>
 
-    <h2 class="sub_team">EXECUTIVE COMMITTEE</h2>
+    <h2 class="sub_team" id="execom">EXECUTIVE COMMITTEE</h2>
 
     <div class="big_container">
         <div class="container">
            
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Chinmaya1.JPG">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Chinmaya K</h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:chinmayak77@gmail.com" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
         
@@ -109,13 +109,13 @@
         
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Shivraj.JPG">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Shivraj Nath</h3>
+                <span class="post">VICE CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:18srjn@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
         
@@ -123,13 +123,13 @@
         
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Surendra.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Surendra R Hegde</h3>
+                <span class="post">GENERAL SECRETARY</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:surendrahegde3@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
         
@@ -137,75 +137,90 @@
        
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Ankit.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Ankit Priyesh</h3>
+                <span class="post">SAC CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:priyesh.ankit3@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
             <!-- <i class="fa-regular fa-envelope"></i> -->
             <!-- <i class="fa fa-envelope"></i> -->
+            
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/AMRUTHA.png">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Amrutha K R</h3>
+                <span class="post">SAC CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:amruthaputti01@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Mandara.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Mandara Shivakumar</h3>
+                <span class="post">EVENT MANAGER</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:mandarashivakumar@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Sparshi.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Sparshi Agrawal</h3>
+                <span class="post">REPORTING LEAD
+                </span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:sparshi.agrawal091@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Hamsini.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Hamsini V</h3>
+                <span class="post">PUBLICITY LEAD
+                </span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:hamsinisvm@gmail.com" class="fa fa-envelope"></a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="our-team">
+                <div class="pic">
+                    <img src="./team images/jrexecom2022/akhil.jpg">
+                </div>
+                <h3 class="title">C A Akhil</h3>
+                <span class="post">JOINT SECRETARY</span>
+                <ul class="social">
+                    <li><a href="mailto:akhilca232002@gmail.com" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
 
             
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/tinywow_IMG_E7924_4684138 - Prajwal K.png">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Prajwal K</h3>
+                <span class="post">TREASURER</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:prajwalrao123@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
         
@@ -213,61 +228,76 @@
        
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/IMG-20220823-WA0038 - SNEHA N ANGADI.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Sneha N Angadi</h3>
+                <span class="post">CHIEF STUDENT CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:reachsneha23@gmail.com
+                        " class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/ganapathi.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">K Ganapathi Sharma</h3>
+                <span class="post">STUDENT CO-ORDINATOR
+                </span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:ganapathisharma2003@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/IMG_20220823_161447 - 49- Sriharihara Kashyap.S.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Sriharihara Kashyap S</h3>
+                <span class="post">STUDENT CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:srihari10h@gmail.com" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/sohan1.jpeg" alt="">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Sohan S</h3>
+                <span class="post">PUBLICITY CO-ORDINATOR
+                </span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:sohansnair1563717@gmail.com" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/meghna.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Meghana</h3>
+                <span class="post">REPORTING TEAM</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:meghanaballal02@gmail.com" class="fa fa-envelope"></a></li>
+                  
+                </ul>
+            </div>
+
+            <div class="our-team">
+                <div class="pic">
+                    <img src="./team images/jrexecom2022/IMG_20220823_233040 - Deeksha Hegde.jpg">
+                </div>
+                <h3 class="title">Deeksha Hegde</h3>
+                <span class="post">REPORTING TEAM</span>
+                <ul class="social">
+                    <li><a href="mailto:deekshahegde321@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -276,134 +306,124 @@
 
 
 
-    <h2 class="sub_team">MEMBERSHIP DEVELOPMENT COMMITTEE</h2>
+    <h2 class="sub_team" id="mem_id">MEMBERSHIP DEVELOPMENT COMMITTEE</h2>
 
     <div class="big_container">
         <div class="container">
      <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Suyash.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Suyash G Patil</h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:suyash.g.patil@gmail.com" class="fa fa-envelope"></a></li>
+                  
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/AMRUTHA.png">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Amrutha K R</h3>
+                <span class="post">VICE CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:amruthaputti01@gmail.com" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/Prakruthi K P.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Prakruthi K P</h3>
+                <span class="post">SECRETARY</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:prakruthikp@ieee.org" class="fa fa-envelope"></a></li>
+               
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/sumukh - 54-Sumukh Kowligi.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Sumukh J Kowligi</h3>
+                <span class="post">AMBASSADOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:sumukhkowligi@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
         </div>
     </div>
 
 
-    <h2 class="sub_team">ELECTRON DEVICES SOCIETY</h2>
+    <h2 class="sub_team" id="socities_id">ELECTRON DEVICES SOCIETY</h2>
 
 
     <div class="big_container">
         <div class="container">
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Mukul1.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Mukul</h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:mukulkr21799@gmail.com" class="fa fa-envelope"></a></li>
+                  
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Sushma1.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Sushma B S</h3>
+                <span class="post">VICE CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:sushma.bananda@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/abdulla.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Abdullah Meeran Mohammed Habibi</h3>
+                <span class="post">SECRETARY</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:abdullahmeeran18@gmail.com
+                        " class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/P A.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">P A Anshad</h3>
+                <span class="post">JOINT SECRETARY</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:anshadpa@ieee.org" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/IMG_20220823_170206 - Ashwin Bhandari1.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Ashwin Vijayakumar Bhandari</h3>
+                <span class="post">TECHNICAL CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:ashwinvbhandari@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -417,83 +437,85 @@
         <div class="container">
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Saswathi.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">D Saswathi Srichakri</h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:saswathi.chakri@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Vanditha.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Vanditha M</h3>
+                <span class="post">VICE CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:mvanditha07@gmail.com
+                        " class="fa fa-envelope"></a></li>
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Sudhanva.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Sudhanva R</h3>
+                <span class="post">SENIOR EVENT CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:sudhanvalm10@gmail.com" class="fa fa-envelope"></a></li>
+                    
+                </ul>
+            </div>
+
+           
+            <div class="our-team">
+                <div class="pic">
+                    <img src="./team images/jrexecom2022/smrithi_photo - Smrithi Bhat.jpg">
+                </div>
+                <h3 class="title">Smrithi Bhat</h3>
+                <span class="post">SECRETARY</span>
+                <ul class="social">
+                    <li><a href="mailto:smrithib0602@gmail.com" class="fa fa-envelope"></a></li>
+                
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/umar.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Umar Ahmad</h3>
+                <span class="post">JOINT SECRETARY</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:umarahmad10786@gmail.com
+                        " class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/neha tg.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Neha T G</h3>
+                <span class="post">TECHNICAL CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:nehatg504@gmail.com" class="fa fa-envelope"></a></li>
+                 
                 </ul>
             </div>
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/IMG_20220423_1103231 - Ananya A.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Ananya A</h3>
+                <span class="post">EVENT CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:ananyaachendu21@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -507,104 +529,105 @@
         <div class="container">
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Raghavendra.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Raghavendra G</h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:raghavendra422001@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Snehith.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Snehith K</h3>
+                <span class="post">VICE CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailtosnehithgowda27@gmail.com:" class="fa fa-envelope"></a></li>
+                  
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/HARSHITH1.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">R Harshith</h3>
+                <span class="post">SENIOR TECHNICAL CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:rharshith2697@gmail.com" class="fa fa-envelope"></a></li>
+                  
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/DSC_1255-02 - Gururaj Deepak Todurkar.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Gururaj Deepak Todurkar</h3>
+                <span class="post">SECRETARY</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:gururajdt@ieee.org" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/IMG-20220912-WA0006 - Krishnakumar Bhat.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Krishnakumar Balachandra Bhat</h3>
+                <span class="post">JOINT SECRETARY</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:krishnakumarbhat02@gmail.com" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/darshan.jpg" alt="">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Darshan D Kerkar</h3>
+                <span class="post">TECHNICAL CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:darshankerkar04@gmail.com" class="fa fa-envelope"></a></li>
+                  
                 </ul>
             </div>
         </div>
     </div>
 
 
-    <h2 class="sub_team">WEB DEVELOPMENT BOARD</h2>
+    <h2 class="sub_team" id="boards_id">WEB DEVELOPMENT BOARD</h2>
 
 
     <div class="big_container">
         <div class="container">
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Shomik.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Shomik Ghosh</h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:shomikghosh2020@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/Debojyoti_1.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Debojyoti Koley</h3>
+                <span class="post">CO-ORDINATOR
+                </span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:debojyoti.koley.dk@gmail.com" class="fa fa-envelope"></a></li>
+                  
                 </ul>
             </div>
         </div>
@@ -618,107 +641,97 @@
         <div class="container">
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Shukla.JPG">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">P Shukla</h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:shuklaparthasarathy@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/RASHMI.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Rashmi R</h3>
+                <span class="post">VICE CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:rashmirahul21@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/hardik.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Hardik Shettigar</h3>
+                <span class="post">SENIOR EDITOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:hardikhard28@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Chandana.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Chandana Raju</h3>
+                <span class="post">SENIOR EDITOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:chandanaraju1503@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/IMG20220908082302 - Pushpesh Joshi.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Pushpesh Joshi</h3>
+                <span class="post">GRAPHIC DESIGNER
+                </span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:joshi.pushpesh09@gmail.com" class="fa fa-envelope"></a></li>
+                    
+                </ul>
+            </div>
+            <div class="our-team">
+                <div class="pic">
+                    <img src="./team images/jrexecom2022/Ptiyanshu tripathi1.jpg">
+                </div>
+                <h3 class="title">Priyanshu Kumar Tripathi</h3>
+                <span class="post">GRAPHIC DESIGNER</span>
+                <ul class="social">
+                    <li><a href="mailto:vashu.tripathi23@gmail.com" class="fa fa-envelope"></a></li>
+                  
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/IMG_20201031_150141 - Vindya K.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Vindya K</h3>
+                <span class="post">EDITOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:kvindya404@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jrexecom2022/adya.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">Adya S</h3>
+                <span class="post">EDITOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:adyasujeet@yahoo.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -744,13 +757,13 @@
            
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/abhi2.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">ABHIJEET BHARTI</h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:abhijeetbharti@ieee.org" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
         
@@ -758,13 +771,12 @@
         
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/bijwal.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">BIJWAL B JAIN</h3>
+                <span class="post">VICE CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:bijwal@ieee.org" class="fa fa-envelope"></a></li>
                 </ul>
             </div>
         
@@ -772,13 +784,13 @@
         
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/dada.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">DADAPEER B</h3>
+                <span class="post">GENERAL SECRETARY</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:dadapeer.b2000@gmail.com" class="fa fa-envelope"></a></li>
+
                 </ul>
             </div>
         
@@ -786,137 +798,51 @@
        
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/rohit.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">ROHIT NIRANJANMATH</h3>
+                <span class="post">SAC CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:niranjanrohit18@gmail.com" class="fa fa-envelope"></a></li>
+            
                 </ul>
             </div>
             <!-- <i class="fa-regular fa-envelope"></i> -->
             <!-- <i class="fa fa-envelope"></i> -->
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/spandana.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">SPANDANA A S</h3>
+                <span class="post">EVENT MANAGER</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:spandana42suresh@gmail.com" class="fa fa-envelope"></a></li>
+               
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/rak.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">RAKSHITHA P</h3>
+                <span class="post">REPORTING LEAD
+                </span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:rakshithap91@gmail.com" class="fa fa-envelope"></a></li>
+              
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/gagana.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">GAGANA C</h3>
+                <span class="post">PUBLICITY LEAD</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-        
-
-       
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:gagana2k@gmail.com" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
         </div>
@@ -931,49 +857,25 @@
         <div class="container">
      <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/hegde.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">SUSHANK HEGDE</h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:sushankhegde10@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/bmk.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">BHOOMIKA RANI B</h3>
+                <span class="post">VICE CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:bhoomikarani9845@gmail.com" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
         </div>
@@ -987,72 +889,50 @@
         <div class="container">
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/srimadh.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">SRIMADH V RAO
+                </h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:shrimadh332001@gmail.com" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/poornack.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">POORNACHANDRA KARANTH K L</h3>
+                <span class="post">VICE CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:pckaranth@ieee.org" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/akhil.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">AKHIL S R</h3>
+                <span class="post">SENIOR TECHNICAL CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:akhilsr2000@ieee.org" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Sanjay.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">SANJAY S TIPPANNAVAR</h3>
+                <span class="post">TECHNICAL CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:sanjayu2345@ieee.org" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
         </div>
@@ -1066,83 +946,50 @@
         <div class="container">
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/adk.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">ADITHI K RAJ</h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:adithikraj@gmail.com" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/mahi.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">MAHENDHAR H N</h3>
+                <span class="post">VICE CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:Mahendharn14@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/chaitra.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">CHAITRA S</h3>
+                <span class="post">EVENT CO-ORDINATOR
+                </span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:chaitrasrilak@gmail.com" class="fa fa-envelope"></a></li>
+                   
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/Monisha.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">MONISHA S R</h3>
+                <span class="post">SENIOR TECHNICAL CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:monishahn365@gmail.com" class="fa fa-envelope"></a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -1156,72 +1003,37 @@
         <div class="container">
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/jag.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">JAGADEESH M B</h3>
+                <span class="post">CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:jagadeesh6101@gmail.com" class="fa fa-envelope"></a></li>
+                
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/meghana.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">MEGHANA M</h3>
+                <span class="post">VICE CHAIRPERSON</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:meghanaacchu17@gmail.com" class="fa fa-envelope"></a></li>
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/gayat.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">GAYATRI V SHETTI
+                </h3>
+                <span class="post">SENIOR TECHNICAL CO-ORDINATOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:gayatrishetti23@gmail.com" class="fa fa-envelope"></a></li>
+                  
                 </ul>
             </div>
         </div>
@@ -1235,25 +1047,13 @@
         <div class="container">
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/ezu.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">MOHAMMED EZHAN</h3>
+                <span class="post">CHIEF</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
+                    <li><a href="mailto:ezhanmohammed@gmail.com" class="fa fa-envelope"></a></li>
 
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
                 </ul>
             </div>
         </div>
@@ -1267,107 +1067,59 @@
         <div class="container">
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/dhan.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">DHANUSH SRINATH</h3>
+                <span class="post">CHIEF EDITOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:dhanush.srinath@yahoo.com" class="fa fa-envelope"></a></li>
+
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/akshay.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">AKSHAY A B</h3>
+                <span class="post">EDITOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:akshayabee19@gmail.com" class="fa fa-envelope"></a></li>
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/manju.jpg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">MANJUNATH H T</h3>
+                <span class="post">EDITOR</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="mailto:4682ssbj@gmail.com" class="fa fa-envelope"></a></li>
+
                 </ul>
             </div>
 
             <div class="our-team">
                 <div class="pic">
-                    <img src="image1.jpg">
+                    <img src="./team images/suprabhu.jpeg">
                 </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
+                <h3 class="title">SUMANTHA PRABHU</h3>
+                <span class="post">SENIOR GRAPHIC DESIGNER</span>
                 <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
+                    <li><a href="mailto:sumanthprabhu2000@gmail.com" class="fa fa-envelope"></a></li>
 
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
                 </ul>
             </div>
+            <div class="our-team">
+                <div class="pic">
+                    <img src="./team images/lasitha.jpg">
+                </div>
+                <h3 class="title">LASITHA S</h3>
+                <span class="post">SENIOR GRAPHIC DESIGNER</span>
+                <ul class="social">
+                    <li><a href="mailto:lasitha.shanth@gmail.com" class="fa fa-envelope"></a></li>
 
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-            <div class="our-team">
-                <div class="pic">
-                    <img src="image1.jpg">
-                </div>
-                <h3 class="title">Williamson</h3>
-                <span class="post">Web Developer</span>
-                <ul class="social">
-                    <li><a href="#" class="fa fa-envelope"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
                 </ul>
             </div>
         </div>
@@ -1413,29 +1165,29 @@
                 <br>
                 Mysuru, 570006
                 <br>
-                Phone: +(91) 6205701439
+                Phone: +(91) 8762361434
                 <br>
                 Email: ieeesjce2019@gmail.com
             </p>
         </div>
         <div class="importent_links">
-            <h1>IMPORTENT LINKS</h1>
-            <a href="#">JSS STU</a>
-            <a href="#">IEEE.org</a>
-            <a href="#">IEEE WIE</a>
-            <a href="#">IEEE Standrads</a>
-            <a href="#">IEEE XploreDigital Library</a>
-            <a href="#">IEEE EDS</a>
-            <a href="#">IEEE-Bangalurue section</a>
-            <a href="#">IEEE RAS</a>
+            <h1>IMPORTANT LINKS</h1>
+            <a href="https://jssstuniv.in/">JSS STU</a>
+            <a href="https://www.ieee.org/">IEEE.org</a>
+            <a href="https://wie.ieee.org/">IEEE WIE</a>
+            <a href="https://standards.ieee.org/">IEEE Standrads</a>
+            <a href="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE XploreDigital Library</a>
+            <a href="https://eds.ieee.org/">IEEE EDS</a>
+            <a href="https://ieeebangalore.org/">IEEE-Bangalore section</a>
+            <a href="http://www.ieee-ras.org/">IEEE RAS</a>
         </div>
         <div class="follow_us">
             <h1>FOLLOW US</h1>
             <div class="follow_icon">
-                <a href=""><img src="ig.png" alt=""></a>
-                <a href=""><img src="fb.png" alt=""></a>
-                <a href=""><img src="ln.png" alt=""></a>
-                <a href=""><img src="yt.png" alt=""></a>
+                <a href="https://www.instagram.com/ieee_sjce/"><img src="ig.png" alt=""></a>
+                <a href="https://www.facebook.com/ieeesjce/"><img src="fb.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/ieee-sjce/"><img src="ln.png" alt=""></a>
+                <a href="https://www.youtube.com/user/IEEESJCE"><img src="yt.png" alt=""></a>
             </div>
         </div>
     </div>

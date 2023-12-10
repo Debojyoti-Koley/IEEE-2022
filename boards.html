@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="boards.css">
-    <title>Boards</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <title>IEEE-SJCE</title>
 </head>
 
 <body>
     <div class="navbar">
-        <a href="#" class="logo"><img src="logo.png" alt="logo" id="logo_img"></a>
+        <a href="./index.html" class="logo"><img src="logo.png" alt="logo" id="logo_img"></a>
 
         <a class="toggle-button">
             <span class="bar"></span>
@@ -21,42 +22,42 @@
 
         <ul class="navbar-dropdown">
             <li>
-                <a class="navbar-links">BOARDS</a>
+                <a href="./boards.html" class="navbar-links">BOARDS</a>
                 <div class="dropdown">
-                    <a href="#"><img src="web-dev.png" alt=""><span>WEB-DEVELOPMENT BOARD</span> </a>
-                    <a href="#"><img src="pen.png" alt=""> EDITORIAL BOARD</a>
+                    <a href="./boards.html#web_id"><img src="web-dev.png" alt=""><span>WEB-DEVELOPMENT BOARD</span> </a>
+                    <a href="./boards.html#ed_id"><img src="pen.png" alt=""> EDITORIAL BOARD</a>
                 </div>
             </li>
             <li>
-                <a class="navbar-links">SOCIETIES</a>
+                <a href="./societies.html" class="">SOCIETIES</a>
                 <div class="dropdown">
-                    <a href="#"><img src="student1.png" alt=""> STUDENT BRANCH</a>
-                    <a href="#"><img src="electronic.png" alt=""> ELECTRON DEVICES SOCIETY</a>
-                    <a href="#"><img src="woman.png" alt=""> WOMEN IN ENGINEERING</a>
-                    <a href="#"><img src="robotics.png" alt=""> ROBOTICS AND AUTOMATION SOCIETY</a>
+                    <a href="./societies.html#std_id"><img src="student1.png" alt=""> STUDENT BRANCH</a>
+                    <a href="./societies.html#eds_id"><img src="electronic.png" alt=""> ELECTRON DEVICES SOCIETY</a>
+                    <a href="./societies.html#wie_id"><img src="woman.png" alt=""> WOMEN IN ENGINEERING</a>
+                    <a href="./societies.html#rds_id"><img src="robotics.png" alt=""> ROBOTICS AND AUTOMATION SOCIETY</a>
                 </div>
             </li>
             <li>
-                <a class="navbar-links">TEAM</a>
+                <a href="./team.html" class="navbar-links">TEAM</a>
                 <div class="dropdown">
-                    <a href="#"><img src="executive committee.png" alt=""> EXECUTIVE COMMITTEE</a>
-                    <a href="#"><img src="membership.png" alt=""> MEMBERSHIP COMMITTEE</a>
-                    <a href="#"><img src="society.png" alt=""> SOCIETY</a>
-                    <a href="#"><img src="board.png" alt=""> BOARDS</a>
+                    <a href="./team.html#execom"><img src="executive committee.png" alt=""> EXECUTIVE COMMITTEE</a>
+                    <a href="./team.html#mem_id"><img src="membership.png" alt=""> MEMBERSHIP COMMITTEE</a>
+                    <a href="./team.html#socities_id"><img src="society.png" alt=""> SOCIETY</a>
+                    <a href="./team.html#boards_id"><img src="board.png" alt=""> BOARDS</a>
                 </div>
             </li>
-            <li>
+            <!-- <li>
                 <a class="navbar-links">FESTS</a>
                 <div class="dropdown">
-                    <a href="#"><img src="cyberia.png" alt=""> CYBERIA</a>
-                    <a href="#"><img src="toxido.png" alt=""> TUXEDO</a>
+                    <a href="http://www.ieeesjce.com/cyberia/home.php"><img src="cyberia.png" alt=""> CYBERIA</a>
+                    <a href="http://ieeesjce.com/tuxedo/"><img src="toxido.png" alt=""> TUXEDO</a>
                 </div>
+            </li> -->
+            <li>
+                <a href="./gallery.html" class="navbar-links">GALLERY</a>
             </li>
             <li>
-                <a class="navbar-links">GALLERY</a>
-            </li>
-            <li>
-                <a class="navbar-links">CONTACT</a>
+                <a href="./contact_us.html" class="navbar-links">CONTACT</a>
             </li>
         </ul>
     </div>
@@ -65,18 +66,18 @@
     <h1 class="board">BOARDS</h1>
     <hr class="hr-1">
 
-    <h3 class="web_development">WEB DEVELOPMENT BOARD</h3>
+    <h3 class="web_development" id="web_id">WEB DEVELOPMENT BOARD</h3>
 
     <p class="wd_p">
         <img src="gif1.gif" alt="" class="img1">
         Web Development board, an important wing of IEEE-SJCE is an exclusive committee for designing and maintaining
         the website and web pages of IEEE-SJCE, its events, and spread its motto. For us, WDB is a place where students
-        from various disciplines of the campus meet together to put their creativity to create and design web pages and
+        from various disciplines of the campus meet together to put their creativity to work and design web pages and
         host them on the web securely.
         <br>
         <br>
         <img src="b1.jpg" alt="" class="img2">
-        webIt also encourages the students on the campus to learn languages for web hosting like HTML, CSS, JavaScript,
+        It also encourages the students on the campus to learn languages for web hosting like HTML, CSS, JavaScript,
         HTML(server-side scripting) by conducting many technical sessions on them throughout the year, which are hosted
         by our core committee members.
         <br>
@@ -89,22 +90,35 @@
         
     </p>
 
-    <h3 class="editorial_board">EDITORIAL BOARD</h3>
+    <h3 class="editorial_board" id="ed_id">EDITORIAL BOARD</h3>
 
     <p class="ed_p">
         <img src="gif2.gif" alt="" class="img3">
-        At the IEEE EdBoard, we strive to present interesting news and articles, about the latest trends and discoveries in the
+        At the IEEE EdBoard, we strive to present interesting news and articles about the latest trends and discoveries in the
         technology field, while also providing a voice for IEEE-SJCE, its members, and the students.
         <br>
         <br>
         <!-- <img src="b2.jpg" alt="" class="img4"> -->
         
-        webWe publish three editions of the IEEE Interface magazine, every year - the Orientation edition, about IEEE-SJCE's
+        We publish three editions of the IEEE Interface magazine, every year: the Orientation edition, about IEEE-SJCE's
         events, workshops, etc; the Tuxedo edition, about the Open Source Software Revolution; and, the Cyberia Edition, which
         covers a wide array of the latest and greatest news related to technology.
         <br>
         <br>
     </p>
+
+
+
+    <h3 class="magazine">Annual Magazine</h3>
+    <p>We at IEEE SJCE are thrilled to announce that our much-anticipated magazine "Interface 2022" is out now! We hope you like this edition. This newer edition has got it all: from edifying articles to preparing for interviews! Do check out our magazine now!</p>
+
+    <a href="https://drive.google.com/file/d/1LCHJoy6sXg5IC3mZTSvX1WoSFKEJURc9/view?usp=sharing">
+        <img src="magazine.png" alt="" id="thumbnail">
+    </a>
+
+    <a href="./IEEE Magazine.pdf" download="IEEE-Magazine"  target="_blank" rel="noreferrer" id="btn_2">
+        <button class="btn_2">Download</button>
+    </a>
 
 
     <div class="new_footer">
@@ -122,32 +136,31 @@
                 <br>
                 Mysuru, 570006
                 <br>
-                Phone: +(91) 6205701439
+                Phone: +(91) 8762361434
                 <br>
                 Email: ieeesjce2019@gmail.com
             </p>
         </div>
         <div class="importent_links">
-            <h1>IMPORTENT LINKS</h1>
-            <a href="#">JSS STU</a>
-            <a href="#">IEEE.org</a>
-            <a href="#">IEEE WIE</a>
-            <a href="#">IEEE Standrads</a>
-            <a href="#">IEEE XploreDigital Library</a>
-            <a href="#">IEEE EDS</a>
-            <a href="#">IEEE-Bangalurue section</a>
-            <a href="#">IEEE RAS</a>
+            <h1>IMPORTANT LINKS</h1>
+            <a href="https://jssstuniv.in/">JSS STU</a>
+            <a href="https://www.ieee.org/">IEEE.org</a>
+            <a href="https://wie.ieee.org/">IEEE WIE</a>
+            <a href="https://standards.ieee.org/">IEEE Standrads</a>
+            <a href="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE XploreDigital Library</a>
+            <a href="https://eds.ieee.org/">IEEE EDS</a>
+            <a href="https://ieeebangalore.org/">IEEE-Bangalore section</a>
+            <a href="http://www.ieee-ras.org/">IEEE RAS</a>
         </div>
         <div class="follow_us">
             <h1>FOLLOW US</h1>
            
             <div class="follow_icon">
-                <a href=""><img src="ig.png" alt=""></a>
-                <a href=""><img src="fb.png" alt=""></a>
-                <a href=""><img src="ln.png" alt=""></a>
-                <a href=""><img src="yt.png" alt=""></a>
-            </div>
-            
+                <a href="https://www.instagram.com/ieee_sjce/"><img src="ig.png" alt=""></a>
+                <a href="https://www.facebook.com/ieeesjce/"><img src="fb.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/ieee-sjce/"><img src="ln.png" alt=""></a>
+                <a href="https://www.youtube.com/user/IEEESJCE"><img src="yt.png" alt=""></a>
+            </div>      
         </div>
     </div>
 
